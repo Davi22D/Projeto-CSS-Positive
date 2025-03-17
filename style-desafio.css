@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+    margin: 40px 0px 144px 76px;
+
+}
+
+.link-header {
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: 400;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    margin-right: 32px;
+    text-align: center;
+    letter-spacing: 0.875px;
+}
+
+.sg {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #6fbf44;
+    border: 1px solid #2a7900;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.sg:hover {
+    background: #266802;
+    transition: 1.5s;
+}
+
+img {
+    height: 400px;
+    margin-left: 100px;
+    margin-top: -40px;
+    display: inline-block;
+}
+
+section {
+    margin: 0px 30px 0px 700px;
+    transform: translateY(-400px);
+    display: inline-block;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 80px;
+}
+
+p {
+    height: 99px;
+    width: 493px;
+    top: 553px;
+    left: 801px;
+    margin-top: 45px;
+    margin-bottom: 13px;
+    color: #4B505a;
+    font-weight: 400;
+}
+
+.sgg {
+    width: 132px;
+    height: 47px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    color: #6fbf44;
+    cursor: pointer;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 0px;
+    margin-left: -10px;
+}
+.sgg:hover {
+    background: #e7edfc;
+    color: #59ff00;
+    font-size: 20px;
+    height: 50px;
+    width: 144px;
+    transition: 1.5s;
+}
+
+@media only screen and (max-width : 800px) { 
+header {
+    display: none;
+}
+ 
+
+   main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 5px;
+}
+
+section {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+    display: block;
+    margin-bottom: 30px;
+      
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: -200px;
+    text-align: center;
+    width: 100%; 
+    height: auto;
+    line-height: 30px;
+    margin-bottom: 10px ;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 100%; 
+    height: auto;
+}
+.sgg {
+
+}
+
+img {
+    width: 70%;
+    height: auto;
+    margin-top: 450px;
+    margin-left: 0px;
+}
+}
