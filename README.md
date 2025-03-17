@@ -16,7 +16,10 @@
 <br> 
 <br> 
 
-## Clique para ver: [:point_right:](https://www.linkedin.com/in/davi-izidoro/)
+## <h3 align="center"> [Clique aqui para ver 🔛](https://davi22d.github.io/Projeto-CSS-Positive/) </h3>
+<br>
+<br>
+
 
 ## :computer: Tecnologias Utilizadas:
 <div img align="left"> 
